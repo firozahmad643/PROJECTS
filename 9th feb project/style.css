@@ -1,0 +1,118 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+body{
+    padding: 40px;
+}
+.screen{
+    
+    font-weight: 600;
+    background-color: blue;
+}
+/* Extra Large screen */
+.els{
+    font-size: 3vw; 
+    background-color: rgb(0, 255, 255);
+    width:94vw;
+    height: 94vh;
+}
+
+/*  Large screen */
+.ls{
+    font-size: 4vw; 
+    background-color: rgb(6, 113, 40);
+    width:90vw;
+    height: 90vh;
+    margin: auto;
+}
+
+/* medium screen */
+.ms{
+    font-size: 5vw; 
+    background-color: rgb(128, 138, 45);
+    width:88vw;
+    height: 85vh;
+    margin: auto;
+}
+
+/* small screen */
+.ss{
+    font-size: 7vw; 
+    background-color: rgb(91, 195, 236);
+    width:80vw;
+    height: 60vh;
+    margin: auto;
+}
+
+/* Extra small screen */
+.ess{
+    font-size: 10vw; 
+    background-color: rgb(204, 44, 62);
+    width:70vw;
+    height: 50vh;
+    margin: auto;
+}
+
+
+/*  Media Query apply */
+
+
+/* Extra Large screen */
+@media screen and (min-width:1440px){
+    .ls , .ms , .ss , .ess{
+        display: none;
+    }
+    
+}
+
+/*  Large screen */
+@media screen and (max-width:1440px){
+    .els , .ms , .ss , .ess {
+        display: none;
+    }
+}
+
+/*  medium screen */
+@media screen and (max-width:1024px){
+    .els , .ls , .ss , .ess {
+        display: none;
+    }
+    .ms{
+        display: block;
+    }
+    
+}
+
+
+/*  small screen */
+@media screen and (max-width:768px){
+    .els , .ls , .ms , .ess {
+        display: none;
+    }
+    .ss{
+        display: block;
+    }
+}
+
+/*  extra small screen */
+@media screen and (max-width:425px){
+    .els , .ls , .ms , .ss {
+        display: none;
+    }
+    .ess{
+        display: block;
+        
+    }
+}
+
+
+
+
+
+
+
