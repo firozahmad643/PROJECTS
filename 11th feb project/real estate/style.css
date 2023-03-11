@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.first-div{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./images/mainBackground.png");
+  background-size: 100vw 100vh;
+   position: relative; 
+   width: 98.8vw;
+   height: 82vh;
+}
+
+/*  header */
+
+header{
+    display: flex;
+    margin: 0px 12vw;
+    padding: 3vh 8vh 3vh 5vh ;
+    border-bottom: 3px solid white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 3vw;
+}
+
+nav ul li a{
+color: white;
+font-size: 18px;
+font-weight: 600;
+text-decoration: none;
+}
+
+.main-text{
+    margin: 10vh 15vw 0px;
+}
+.main-text h1{
+    font-size: 70px;
+    color: white;
+}
+.main-text p{
+    color: white;
+    font-size: 22px;
+    margin: 4.5vh 0px 3vh;
+}
+.main-text button{
+    background-color: rgb(80, 80, 235);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.first-div .logo-name{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    border: 1px solid rgb(39, 35, 35);
+    color: blue;
+    background-color: white;
+    font-size: 20px;
+    width: 85vw;
+    padding: 5vh 0px;
+    position: absolute;
+    top: 550px;
+    left: 7vw;
+    border-radius: 25px;
+    
+}
+
+/* second div */
+
+.second-div{
+    background-color: rgb(218, 230, 228);
+    padding: 15vh 0px;
+}
+
+.second-div h1{
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.second-div .nine-images{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    row-gap: 20px;
+}
+.second-div .nine-images .row{
+    margin-top: 6vh;
+    display: flex;
+    gap: 10px;
+   
+   
+}
+
+.second-div .nine-images .row .items{
+    position: relative;
+  
+}
+
+.second-div .nine-images .row .items img{
+    border-radius: 20px;
+}
+
+.second-div .nine-images .row .items .my{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 260px;
+    left: 15px;
+    
+    
+}
+.second-div .nine-images .row div div h3 .location{
+    font-size: 25px;
+    margin-bottom: 10px;
+   
+}
+.second-div .nine-images .row div div h3 .price{
+    
+    color: blue;
+}
+
+.second-div .nine-images .row div div div button{
+    padding: 10px 25px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-weight: 600;
+    background-color:rgb(80, 80, 235);
+    border-radius: 25px;
+}
+
+.second-div .nine-images .row1 .item2{
+    margin-top: 3vh;
+}
+.second-div .nine-images .row1 .item3{
+    margin-top: 6vh;
+}
+
+.second-div .nine-images .row2 .item2{
+    margin-top: 3vh;
+}
+.second-div .nine-images .row2 .item1{
+    margin-top: 6vh;
+}
+
+.second-div .nine-images .row3 .item2{
+    margin-top: 3vh;
+}
+.second-div .nine-images .row3 .item3{
+    margin-top: 6vh;
+}
+
+
+/* selling-house 1 */
+
+.selling-house1{
+   
+    margin-top: 10vh;
+    position: relative;
+    display: flex;
+   
+}
+.selling-house1 .img1{
+    
+    position: relative;
+    left: -42px;
+}
+.selling-house1 .img2{
+    position: absolute;
+    border-radius: 40px;
+    left: 115px;
+}
+
+.selling-house1 .details{
+  padding: 5vh 10vw;
+  
+}
+.selling-house1 .details h1{
+    font-size: 70px;
+  
+    text-align: start;
+}
+.selling-house1 .details p{
+    font-size: 30px;
+}
+.selling-house1 .details button{
+    background-color: rgb(80, 80, 235);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+
+
+/* selling house2 */
+
+.selling-house2{
+    display: flex;
+   
+    flex-direction: row-reverse;
+    position: relative;
+}
+.selling-house2 .img2{
+    position: absolute;
+    border-radius: 40px;
+    right: 90px;
+}
+
+.selling-house2 .details{
+    padding: 5vh 10vw;
+    
+  }
+
+  .selling-house2 .details h1{
+    font-size: 70px;
+  
+    text-align: start;
+}
+
+.selling-house2 .details p{
+    font-size: 30px;
+}
+.selling-house2 .details button{
+    background-color: rgb(80, 80, 235);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+
+
+/* subscribe div */
+
+.subscribe-div{
+    
+    width: 80vw;
+    height: 40vh;
+    text-align: center;
+    padding: 1.5cm;
+    background-color: rgb(80, 80, 235);
+    margin: 6vh auto;
+    border-radius: 30px;
+}
+
+.subscribe-div h2{
+    font-size: 60px;
+    color: white;
+}
+.subscribe-div p{
+    margin: 10px 0px;
+    font-size: 20px;
+    color: white;
+}
+.subscribe-div input{
+    padding: 15px 30px;
+    width: 8cm;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+}
+.subscribe-div button{
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+   
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+footer .links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer .links div ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+footer .locations h3{
+  font-size: 30px;
+}
+
+footer .locations p{
+    font-size: 18px;
+    margin: 8px 0px;
+  }
+
+  footer .contact h3{
+    font-size: 30px;
+  }
+  
+  footer .contact p{
+      font-size: 18px;
+      margin: 8px 0px;
+    }
+
+    footer .legals h3{
+        font-size: 30px;
+      }
+      
+      footer .legals p{
+          font-size: 18px;
+          margin: 8px 0px;
+        }

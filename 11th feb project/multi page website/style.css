@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw; 
+   
+    margin: 4vh auto;  
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    column-gap: 40px;
+    
+}
+
+header nav div img{
+    width: 150px;
+    height: 50px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+/* main  */
+main{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin-left: 10vw;
+   
+}
+
+.left-section{
+   background-image: url("./images/stethoscope.png");
+   background-size: 50vw 60vh;  
+   
+    width: 50vw;
+    height: 60vh;
+    position: relative;
+   
+}
+
+.left-section #bottomAngle{
+    width: 20px;
+    height: 20px;
+     position: absolute;
+    top: 390px;
+    left: 520px;
+}
+
+.left-section #topAngle{
+      width: 20px;
+    height: 20px;
+    margin-bottom: 1.5vh;
+
+}
+.left-section #mouse{
+    width: 25px;
+    height: 25px;
+     position: absolute;
+    top: 420px;
+    left: 560px;
+    
+}
+
+.left-section h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.left-section p{
+    color: grey;
+    font-size: 17px;
+    margin: 3% 0px 3%;
+}
+
+.left-section button{
+    background-color: rgb(110, 179, 110);
+    color: white;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none; 
+}
+
+
+
+/* right section */
+
+
+.right-section{
+   
+    position: relative;
+   
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+
+.right-section #greenbox img{
+   width: 450px;
+   height: 450px;
+    
+}
+
+.right-section #yellowbox img{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.right-section #doctor img{
+    width: 500px;
+    height: 650px;
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+}
+
+
+
