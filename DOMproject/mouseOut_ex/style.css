@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  padding: 1cm 0.5cm;
+  width: 4cm;
+  box-sizing: border-box;
+  background-color: skyblue;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+  transition: all 3s linear;
+}
+p{
+  border: 1px solid black;
+}
